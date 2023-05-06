@@ -1,0 +1,64 @@
+#quote-box {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(to bottom right, #50ca55, #e62b0b);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  
+  #text {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    text-shadow: 2px 2px #aaa;
+  }
+  
+  #author {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #fff;
+  }
+  
+  #new-quote {
+    background: linear-gradient(to bottom right, #4caf50, #388e3c);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    padding: 0.8rem 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px #008000;
+  }
+  
+  #new-quote:hover {
+    background: linear-gradient(to bottom right, #3e8e41, #2e7d32);
+    box-shadow: 0 2px #008000;
+    transform: translateY(2px);
+  }
+  
+  #tweet-quote {
+    background: linear-gradient(to bottom right, #1da1f2, #0d8abc);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    padding: 0.8rem 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px #0080ff;
+  }
+  
+  #tweet-quote:hover {
+    background: linear-gradient(to bottom right, #0e8ae9, #0a6ebb);
+    box-shadow: 0 2px #0080ff;
+    transform: translateY(8px);
+  }
+  
